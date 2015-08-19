@@ -1,0 +1,36 @@
+{
+  "name": "passport-wrike-oauth2",
+  "version": "0.0.1",
+  "description": "Wrike (OAuth2) authentication strategies for Passport.",
+  "keywords": ["passport", "wrike", "auth", "authn", "authentication", "identity"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/whitesyn/passport-wrike-oauth2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/whitesyn/passport-wrike-oauth2/issues"
+  },
+  "author": {
+    "name": "Victor Kuznetsov",
+    "email": "kuznetsov.vic@gmail.com",
+    "url": "https://github.com/whitesyn/"
+  },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT"
+  } ],
+  "main": "./lib/passport-wrike-oauth2",
+  "dependencies": {
+    "pkginfo": "0.3.x",
+    "passport-oauth": "^1.0.0"
+  },
+  "devDependencies": {
+    "vows": "0.8.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
