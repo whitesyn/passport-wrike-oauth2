@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  div.row
+    if (user)
+      h2 Hello, #{user.displayName}.
+    else
+      h2 Welcome!
+      a(href="/login") Please log in.

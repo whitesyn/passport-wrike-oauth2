@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title= title
+    link(rel='stylesheet', href='//yastatic.net/bootstrap/3.3.1/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/styles/style.css')
+  body
+    nav.navbar.navbar-inverse.navbar-fixed-top
+      div.container
+      div.navbar-header
+        a.navbar-brand(href="/") Wrike OAuth2 Example
+
+    div.container
+      block content
